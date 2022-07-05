@@ -4,8 +4,8 @@ The system is pulling automatic news, picture, video and graphics from Anadolu A
 # Requirements
 
 ```
-You must have an Anadolu Agency API membership.
-You need to install Rabbitmq.
+Anadolu Agency API Account
+RabbitMQ
 
 ```
 
