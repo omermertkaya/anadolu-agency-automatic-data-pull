@@ -20,7 +20,6 @@ npm i pm2
 
 ```
 
-------------
 
 
 ###  RabbitMQ:
@@ -35,7 +34,6 @@ https://www.rabbitmq.com/install-debian.html
 Port Number is 15672 for RabbitMQ Server.
 
 
-------------
 
 
 ###  Anadolu Agency Settings:
