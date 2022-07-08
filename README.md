@@ -1,5 +1,5 @@
 # anadolu-agency-automatic-data-pull
-The system is pulling automatic news, picture, video and graphics from Anadolu Ajansı API.
+The system is pulling automatic news, picture, video and graphics from Anadolu Ajansı API. The app is working 24 hourly. App will get all data from agency. The news format is XML. Image format is JPG. Video format is mp4.
 
 # Requirements
 
