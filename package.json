@@ -1,0 +1,21 @@
+{
+  "name": "aa-api-rabbit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "axios": "^0.26.1",
+    "cron": "^1.8.2",
+    "dayjs": "^1.11.0",
+    "log4js": "^6.4.5",
+    "node-cron": "^3.0.0",
+    "nodejs-file-downloader": "^4.9.3",
+    "pm2": "^5.2.0"
+  }
+}
