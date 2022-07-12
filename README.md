@@ -13,6 +13,15 @@ Pm2
 
 # Installation
 
+
+###  NodeJS:
+
+```
+https://nodejs.org/en/download/
+
+```
+
+
 ###  Pm2:
 
 ```
@@ -38,6 +47,15 @@ Port Number is 15672 for RabbitMQ Server.
 
 ###  Anadolu Agency Settings:
 
+###### Install npm requirements
+
+```
+cd ./anadolu-agency-automatic-data-pull
+npm install
+
+```
+
+
 You could configure your account information.
 
 ###### aauser.js
@@ -57,6 +75,7 @@ module.exports = {
 The code is working in the project folder.
 
 ```
+cd ./anadolu-agency-automatic-data-pull
 pm2 start server.js -n Agency-Main
 pm2 start receive.js -n Agency-Receive
 
