@@ -525,8 +525,8 @@ const consumeTask = async () =>{
                    
                 }else{
                 graphicIsDownloaded = true
-                graphicLogger.trace('Grafik bulunmaktadir. Haberi Kontrol Et ' + graphicIsDownloaded);
-                console.log('Grafik bulunmaktadir. Haberi Kontrol Et ' + graphicIsDownloaded)
+                graphicLogger.trace('Graphic downloaded. Check News XML ' + graphicIsDownloaded);
+                console.log('Graphic downloaded. Check News XML ' + graphicIsDownloaded)
                 graphicNewsDownload(graphicNewsIsSuccess)
                 }
 
