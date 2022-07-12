@@ -66,7 +66,7 @@ const consumeTask = async () =>{
             
     
     
-            // Haber resimlerini indirme bolumu baslangic
+           
 
 
             downloadImage(newsDownload)
@@ -325,7 +325,7 @@ const consumeTask = async () =>{
                     videoTaskIsSuccess()
                 }
                 else{
-                // Videonun Haberi indirilir
+         
                 axios.get('https://api.aa.com.tr/abone/document/'+downloadId+'/newsml29', 
                 {responseType: "stream",auth: {
                         username: aauser.aaUserName,
